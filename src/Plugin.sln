@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeapotPlugin.View", "TeapotPlugin.view\TeapotPlugin.View.csproj", "{E67A0B78-F58D-4B3A-ACA6-B2AC2ABA5985}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeapotPlugin.Wrapper", "TeapotPlugin.Wrapper\TeapotPlugin.Wrapper.csproj", "{31A4A661-7EB7-430C-8946-9FF204F869DA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{374AA376-25BA-4D2C-9217-9671EA0CC357} = {374AA376-25BA-4D2C-9217-9671EA0CC357}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeapotPlugin.Model", "TeapotPluginModel\TeapotPlugin.Model.csproj", "{374AA376-25BA-4D2C-9217-9671EA0CC357}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{6C5168B6-E411-42BD-99B6-E7A893AD6671}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StressTesting", "StressTesting\StressTesting.csproj", "{48747AD4-7958-4E1C-94BD-176DE357605A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model.UnitTests", "UnitTest\Model.UnitTests.csproj", "{2FA8F431-839B-43E3-87FE-51726332A695}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E67A0B78-F58D-4B3A-ACA6-B2AC2ABA5985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67A0B78-F58D-4B3A-ACA6-B2AC2ABA5985}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67A0B78-F58D-4B3A-ACA6-B2AC2ABA5985}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67A0B78-F58D-4B3A-ACA6-B2AC2ABA5985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31A4A661-7EB7-430C-8946-9FF204F869DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A4A661-7EB7-430C-8946-9FF204F869DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A4A661-7EB7-430C-8946-9FF204F869DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A4A661-7EB7-430C-8946-9FF204F869DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{374AA376-25BA-4D2C-9217-9671EA0CC357}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{374AA376-25BA-4D2C-9217-9671EA0CC357}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{374AA376-25BA-4D2C-9217-9671EA0CC357}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{374AA376-25BA-4D2C-9217-9671EA0CC357}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48747AD4-7958-4E1C-94BD-176DE357605A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48747AD4-7958-4E1C-94BD-176DE357605A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48747AD4-7958-4E1C-94BD-176DE357605A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48747AD4-7958-4E1C-94BD-176DE357605A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA8F431-839B-43E3-87FE-51726332A695}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA8F431-839B-43E3-87FE-51726332A695}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA8F431-839B-43E3-87FE-51726332A695}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA8F431-839B-43E3-87FE-51726332A695}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48747AD4-7958-4E1C-94BD-176DE357605A} = {6C5168B6-E411-42BD-99B6-E7A893AD6671}
+		{2FA8F431-839B-43E3-87FE-51726332A695} = {6C5168B6-E411-42BD-99B6-E7A893AD6671}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E27F1D97-7447-4719-B8F4-1568A4B1B89D}
+	EndGlobalSection
+EndGlobal
