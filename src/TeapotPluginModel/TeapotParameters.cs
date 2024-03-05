@@ -34,7 +34,7 @@
         private readonly Dictionary<ParameterType, Parameter> _parameters =
             new Dictionary<ParameterType, Parameter>
             {
-                {ParameterType.Height, new Parameter{ MaxValue = 200, MinValue = 100, Value = 100 }},
+                {ParameterType.Height, new Parameter{ MaxValue = 200, MinValue = 100, Value = 180 }},
                 {ParameterType.BaseCircle, new Parameter{ MaxValue = 100, MinValue = 80, Value = 90 }},
                 {ParameterType.OuterSpoutCircle, new Parameter{ MaxValue = 20, MinValue = 10, Value = 10 }},
                 {ParameterType.InnerSpoutCircle, new Parameter{ MaxValue = 9, MinValue = 5, Value = 8 }},
