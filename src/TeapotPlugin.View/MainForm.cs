@@ -65,7 +65,7 @@
                                                 "because the value of the height is set incorrectly!";
                 TextBoxTeapotHeight.BackColor = _errorColor;
                 errorCounter++;
-                _errorMessage += errorCounter.ToString() + ")" + _heightErrorMessage + "\n\n";
+                _errorMessage += errorCounter.ToString() + ") " + _heightErrorMessage + "\n\n";
             }
             else
             {
@@ -76,7 +76,7 @@
             {
                 TextBoxBaseCircleRadius.BackColor = _errorColor;
                 errorCounter++;
-                _errorMessage += errorCounter.ToString() + ")" + _baseCircleRadiusErrorMessage + "\n\n";
+                _errorMessage += errorCounter.ToString() + ") " + _baseCircleRadiusErrorMessage + "\n\n";
             }
             else
             {
@@ -89,7 +89,7 @@
                 _innerCircleSpoutErrorMessage = "It is not possible to set the value of the inner circle of the " +
                                                 "spout because the value of the outer circle is set incorrectly!\n";
                 errorCounter++;
-                _errorMessage += errorCounter.ToString() + ")" + _outerCircleSpoutRadiusErrorMessage + "\n\n";
+                _errorMessage += errorCounter.ToString() + ") " + _outerCircleSpoutRadiusErrorMessage + "\n\n";
             }
             else
             {
@@ -100,7 +100,7 @@
             {
                 TextBoxLabelSpoutLength.BackColor = _errorColor;
                 errorCounter++;
-                _errorMessage += errorCounter.ToString() + ")" + _spoutLengthErrorMessage + "\n\n";
+                _errorMessage += errorCounter.ToString() + ") " + _spoutLengthErrorMessage + "\n\n";
             }
             else
             {
@@ -111,7 +111,7 @@
             {
                 TextBoxInnerCircleSpout.BackColor = _errorColor;
                 errorCounter++;
-                _errorMessage += errorCounter.ToString() + ")" +  _innerCircleSpoutErrorMessage + "\n\n";
+                _errorMessage += errorCounter.ToString() + ") " +  _innerCircleSpoutErrorMessage + "\n\n";
             }
             else
             {
@@ -122,7 +122,7 @@
             {
                 TextBoxHandleThickness.BackColor = _errorColor;
                 errorCounter++;
-                _errorMessage += errorCounter.ToString() + ")" + _handleThicknessErrorMessage + "\n\n";
+                _errorMessage += errorCounter.ToString() + ") " + _handleThicknessErrorMessage + "\n\n";
             }
             else
             {
